@@ -1,0 +1,21 @@
+{
+  "name": "shottie-poc-and-testing",
+  "module": "index.js",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "nodemon": "^3.1.4"
+  },
+  "scripts": {
+    "start": "npm server.js",
+    "dev": "nodemon server.js"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "ffmpeg": "^0.0.4"
+  }
+}
